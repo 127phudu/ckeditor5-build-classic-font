@@ -1,10 +1,15 @@
 {
-  "name": "ckeditor5-custom-build",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "name": "ckeditor5-classic-font",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:127phudu/ckeditor5-build-classic-font.git"
+  },
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^17.0.0",
     "@ckeditor/ckeditor5-autoformat": "^17.0.0",
